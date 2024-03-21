@@ -1,0 +1,430 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map_6.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Chambres Riches/Chambre de base.tmx": {
+            "scale": 3.716875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 160.08071296451993,
+                "y": 160.08071296451993
+            }
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Chambres Riches/interior_b_by_schwarzenacht_datt3py.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.5
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Chambres Riches/morgue_by_nicnubill_d6swv2l.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Chambres Riches/mv_noble_interior_by_schwarzenacht_dapf6pa.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.75
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Chambres Riches/rpg_maker_vx___tilea3_by_ayene_chan_d5lgb3n.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Chambres Riches/rpg_maker_vx_ace___mirrors_with_cracks_by_ayene_chan_d7t1ru3.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Chambres Riches/rpg_maker_wooden_floor_by_ayene_chan_d587fmi.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Cuisines/interior_b_by_schwarzenacht_datt3py.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Cuisines/mv_noble_interior_by_schwarzenacht_dapf6pa.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Cuisines/rpg_maker_vx___tilea3_by_ayene_chan_d5lgb3n.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 3
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Cuisines/rpg_maker_wooden_floor_by_ayene_chan_d587fmi.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Salon/interior_b_by_schwarzenacht_datt3py.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Salon/rpg_maker_tile___furniture_by_ayene_chan_d4gok12.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Salon/rpg_maker_vx___tile_c_by_ayene_chan_d7kwsoc.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Salon/rpg_maker_vx___tilea3_by_ayene_chan_d5lgb3n.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Salon/rpg_maker_vx_ace___vx_like_xp_tile_by_ayene_chan_d7t1yi0.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Salon/rpg_maker_wooden_floor_by_ayene_chan_d587fmi.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles Salon/salon.tmx": {
+            "scale": 3.5921874999999996,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 187.62940408873422,
+                "y": 124.71509351892128
+            }
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles salle de bain/free_graphics_school_horror_2_by_nicnubill_d7spfd9.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles salle de bain/mv_bathroom_addon_by_schwarzenacht_dapf6hr.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles salle de bain/mv_edited_walls_floors_by_nicnubill_dck28ru.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 2
+        },
+        "C:/Users/hergo/Documents/Projet_lampida/projet NSI/Tiles salle de bain/salle de bain.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 154.66666666666669,
+                "y": 201
+            }
+        },
+        "Entrée.tmx": {
+            "scale": 6.9191666666666665,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 120.10116825243888,
+                "y": 80.06744550162591
+            }
+        },
+        "Tableau et autre.tsx": {
+            "scaleInDock": 0.75
+        },
+        "december_doors_by_nicnubill_d7128ej.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "free_graphics_school_horror_2_by_nicnubill_d7spfd9.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.75,
+            "scaleInEditor": 1
+        },
+        "glass_canapy_bed_light_by_nicnubill_d6olcp4 (1).tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.75
+        },
+        "house_0.tmx": {
+            "expandedGroupLayers": [
+                11
+            ],
+            "expandedObjectLayers": [
+                13,
+                11
+            ],
+            "scale": 2,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 126,
+                "y": 99
+            }
+        },
+        "house_1.tmx": {
+            "scale": 4.9558333333333335,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 120.06053472338995,
+                "y": 120.06053472338994
+            }
+        },
+        "inter_0.tmx": {
+            "scale": 7.43375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.04035648225997,
+                "y": 80.04035648225997
+            }
+        },
+        "interior_b_by_schwarzenacht_datt3py.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "labo_0.tmx": {
+            "scale": 4.250551470588236,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 136.09998702590494,
+                "y": 121.63127621848378
+            }
+        },
+        "map.tmx": {
+            "expandedGroupLayers": [
+                8
+            ],
+            "scale": 11,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 19.772727272727273,
+                "y": 182.36363636363637
+            }
+        },
+        "map_.tmx": {
+            "scale": 2.4779166666666668,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 48.22599630065582,
+                "y": 240.12106944677987
+            }
+        },
+        "map_0.tmx": {
+            "expandedGroupLayers": [
+                12,
+                11
+            ],
+            "expandedObjectLayers": [
+                11,
+                14,
+                13
+            ],
+            "scale": 4,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 49,
+                "y": 96.75
+            }
+        },
+        "map_01.tmx": {
+            "scale": 2.7792067307692307,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 208.15292133373694,
+                "y": 80.2387233490464
+            }
+        },
+        "map_1.tmx": {
+            "expandedGroupLayers": [
+                11,
+                5
+            ],
+            "expandedObjectLayers": [
+                11,
+                13
+            ],
+            "scale": 2,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 159,
+                "y": 159.5
+            }
+        },
+        "map_2.tmx": {
+            "expandedGroupLayers": [
+                7
+            ],
+            "expandedObjectLayers": [
+                8,
+                7,
+                9
+            ],
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 159.33333333333331,
+                "y": 159.33333333333334
+            }
+        },
+        "map_3.tmx": {
+            "expandedGroupLayers": [
+                14
+            ],
+            "expandedObjectLayers": [
+                15,
+                16,
+                14
+            ],
+            "scale": 3,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 179.66666666666663,
+                "y": 129.66666666666663
+            }
+        },
+        "map_4.tmx": {
+            "expandedGroupLayers": [
+                10
+            ],
+            "expandedObjectLayers": [
+                12,
+                11,
+                10
+            ],
+            "scale": 3,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 136.33333333333331,
+                "y": 124.66666666666664
+            }
+        },
+        "map_4.tmx#rpg_maker_vx___tilea3_by_ayene_chan_d5lgb3n": {
+            "scaleInDock": 1
+        },
+        "map_5.tmx": {
+            "expandedGroupLayers": [
+                5
+            ],
+            "expandedObjectLayers": [
+                5,
+                6,
+                7
+            ],
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 101.99999999999997,
+                "y": 45
+            }
+        },
+        "map_6.tmx": {
+            "expandedGroupLayers": [
+                8,
+                5
+            ],
+            "expandedObjectLayers": [
+                5,
+                7
+            ],
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 45.99999999999997,
+                "y": 87.66666666666664
+            }
+        },
+        "morgue_by_nicnubill_d6swv2l.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "mv_bathroom_addon_by_schwarzenacht_dapf6hr.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "mv_edited_walls_floors_by_nicnubill_dck28ru.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1.5
+        },
+        "mv_noble_interior_by_schwarzenacht_dapf6pa.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.33
+        },
+        "pokecenter.tmx": {
+            "scale": 3.716875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 128.06457037161593,
+                "y": 160.08071296451993
+            }
+        },
+        "rpg_maker_tile___furniture_by_ayene_chan_d4gok12.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "rpg_maker_vx___door_i_2_by_ayene_chan_d5rcrbq.tsx": {
+            "scaleInDock": 1
+        },
+        "rpg_maker_vx___tile_c_by_ayene_chan_d7kwsoc.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "rpg_maker_vx___tilea3_by_ayene_chan_d5lgb3n.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "rpg_maker_vx_ace___mirrors_with_cracks_by_ayene_chan_d7t1ru3.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "rpg_maker_vx_ace___vx_like_xp_tile_by_ayene_chan_d7t1yi0.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "rpg_maker_wooden_floor_by_ayene_chan_d587fmi.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.5
+        },
+        "salle de bain.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 188.99999999999997,
+                "y": 124.66666666666664
+            }
+        },
+        "tileset/indoor.tsx": {
+            "scaleInDock": 1
+        },
+        "tileset/interieur1.tsx": {
+            "scaleInDock": 1
+        },
+        "tileset/pokemon-center.tsx": {
+            "scaleInDock": 1
+        },
+        "tileset/tileset4g.tsx": {
+            "scaleInDock": 1
+        },
+        "tileset/tileset_pokemon_sdk.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "last.externalTilesetPath": "C:/Users/hergo/Documents/Projet_lampida/assets/map",
+    "last.imagePath": "C:/Users/hergo/Documents/Projet_lampida/assets/map",
+    "map.height": 15,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 15,
+    "openFiles": [
+        "map_3.tmx",
+        "map_0.tmx",
+        "map_4.tmx",
+        "map_1.tmx",
+        "map_6.tmx",
+        "map_5.tmx",
+        "map_2.tmx"
+    ],
+    "project": "Salle de bain.tiled-project",
+    "recentFiles": [
+        "map_6.tmx",
+        "map_3.tmx",
+        "map_0.tmx",
+        "map_4.tmx",
+        "map_1.tmx",
+        "map_2.tmx",
+        "map_5.tmx",
+        "salle de bain.tmx",
+        "Entrée.tmx",
+        "rpg_maker_vx___tilea3_by_ayene_chan_d5lgb3n.tsx",
+        "rpg_maker_vx_ace___vx_like_xp_tile_by_ayene_chan_d7t1yi0.tsx",
+        "map_.tmx"
+    ],
+    "tileset.lastUsedFilter": "Fichiers de jeu de tuiles Tiled (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
