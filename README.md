@@ -1,5 +1,5 @@
 # Projet Lampida
-
+# Projet non terminé
 ---
 ## Table of Contents
 - [Description](#description)
@@ -16,8 +16,11 @@ This is an horror game the story line was not ready
 ## Installation
 To install this project, you will need to download the repository. You will also need to install the following modules:
 - pygame (pygame-ce for Python 3.12)
-- pytmx
+- pyTMX
 - pyscroll
+- wheel
+- setuptools
+- pygame-textinput
 ---- Theoretically installed by default ----
 - datetime
 - time
@@ -54,5 +57,5 @@ To run the game, you will need to run the main.py file. You can do this by runni
 - [ ] Credits
 - [X] Title Screen
 - [ ] Storyline
-- [ ] Battle
+- [ ] Easter eggs
 Git hub : git@github.com:Hergoni/Lampida.git
