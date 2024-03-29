@@ -3,25 +3,27 @@ import button
 from scrolling_text import ScrollingText
 from pygame import mixer
 from game import Game
+from Video_setting import FPSChanger
+from Event import Event
+from Objectives import Objectifs
 pygame.init()
 
-#Create game window
+#Création d'une nouvelle fenetre
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
-
-
-
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Main Menu")
 
-#Define fonts
+#Definie le font
 font = pygame.font.SysFont("arialblack",40)
 font2 = pygame.font.SysFont("segoescript",10)
 # Charger l'image de fond + redimension
-background_img = pygame.image.load("../../assets/Images/background_menu.PNG").convert()
+background_img = pygame.image.load("../../assets/Images/background_menu.JPG").convert()
 background_img = pygame.transform.scale(background_img, (SCREEN_WIDTH, SCREEN_HEIGHT))
 
-#define colours
+
+
+#définir les couleurs
 TEXT_COL =(255,255,255)
 TEXT_COL2 =(200,132,25)
 
@@ -48,11 +50,13 @@ back_button = button.Button(480, 490, back_img, 1)
 def draw_text(text, TRUE , text_col,x,y):
     img = font.render(text, True, text_col)
     screen.blit(img, (x,y))
-#Game loop
+
+
 run = True
 while run :
     screen.fill((52,  78, 91))
     screen.blit(background_img, (0, 0))
+
     #Voir si la partie est en pause
     if game_pause == True:
         #Regarde le statut du menu
@@ -61,24 +65,21 @@ while run :
           if start_button.draw(screen):
               mixer.music.stop()
               if __name__ == "__main__":
-
-                  
-
+                  background_img_for_text = "../../assets/Images/background_story1.PNG"
                   messages = ['Dossier n°32145-FR'
                               '\nAutorisation de niveau 3 requise '
                               '\nDossier constitué par le Docteur *******'
                               '\nSujet : incident SCP-3201-FR'
                               '\nVictime : 1'
                               '\nLancement de la séquence',
-                              'Après avoir acheté quelque bricoles dans une brocante vous rentrez chez vous épuisé',
-                              'Vous déposez la lampe dans la librairie',]
-                  scrolling_text = ScrollingText(messages)
+                              ]
+
+                  scrolling_text = ScrollingText(messages, background_img_for_text)
                   scrolling_text.run()
                   scrolling_done = True
 
                   game: Game = Game()
                   game.run()
-
 
           if options_button.draw(screen):
               menu_state = "options"
@@ -86,9 +87,13 @@ while run :
               run = False
           #regarde si l'écran de menue est ouvert
         if menu_state == "options":
-            # draw the different options buttons
+            # écrit les différents boutons
             if video_button.draw(screen):
-                print("Video Settings")
+                menu_state = "Video_setting"
+                if menu_state =='Video_setting':
+                    Video_setting : FPSChanger = FPSChanger(screen)
+                    Video_setting.run()
+
             if audio_button.draw(screen):
                 print("Audio Settings")
             if keys_button.draw(screen):
@@ -96,9 +101,7 @@ while run :
             if back_button.draw(screen):
                 menu_state = "main"
     else:
-        draw_text("LAMPIDA",font2, TEXT_COL2,500,250)
         draw_text("Appuyer sur espace pour jouer", font, TEXT_COL, 300, 350)
-    #event handler
     for event in pygame.event.get():
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_SPACE:
@@ -109,4 +112,5 @@ while run :
             run = False
             mixer.music.stop
     pygame.display.update()
-pygame.quit()
+pygame.quit
+

@@ -7,7 +7,7 @@ class Screen:
         self.display: pygame.display = pygame.display.set_mode((1280, 720))
         pygame.display.set_caption("Lampida")
         self.clock: pygame.time.Clock = pygame.time.Clock()
-        self.framerate: int = 144
+        self.framerate: int = 60
         self.deltatime: float = 0.0
 
     def update(self) -> None:
@@ -29,3 +29,9 @@ class Screen:
 
     def image_screen(self):
         return self.imagescreen
+
+    def get_width(self):
+        pass
+
+    def blit(self, text, text_rect):
+        pass

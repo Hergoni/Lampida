@@ -1,5 +1,5 @@
-"""""sssssssss
- pygame
+import pygame
+pygame.init()
 
 from screen import Screen  # Importe la classe Screen du module screen.py
 from tool import Tool  # Importe la classe Tool du module tool.py
@@ -23,7 +23,7 @@ class Entity(pygame.sprite.Sprite):
         self.direction: str = "down"  # Direction actuelle de l'entité
         self.animation_step_time: float = 0.0  # Temps écoulé depuis la dernière animation
         self.action_animation: int = 16  # Durée entre chaque étape de l'animation
-        self.speed: int = 2  # Vitesse de déplacement de l'entité
+        self.speed: int = 3 # Vitesse de déplacement de l'entité
 
     def update(self) -> None:
         # Met à jour l'entité à chaque itération de la boucle principale
@@ -51,7 +51,7 @@ class Entity(pygame.sprite.Sprite):
         self.direction = "down"
 
     def animation_sprite(self) -> None:
-        if int(self.step // 8) + self.image_part >= 4:
+        if int(self.step // 6) + self.image_part >= 3:
             self.image_part = 0
             self.reset_animation = True
         self.index_image = int(self.step // 8) + self.image_part
@@ -225,5 +225,6 @@ class Entity(pygame.sprite.Sprite):
             for j, key in enumerate(all_images.keys()):
                 all_images[key].append(Tool.split_image(spritesheet, i * width, j * height, 24, 32))
         return all_images
+        """
 
 

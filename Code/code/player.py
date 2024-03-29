@@ -68,6 +68,7 @@ class Player(Entity):
                 else:
                     self.direction = "down"
 
+
     def add_switchs(self, switchs: list[Switch]):
         self.switchs = switchs
 
@@ -97,3 +98,5 @@ class Player(Entity):
     def update_ingame_time(self):
         if self.screen.get_delta_time() > 0:
             self.ingame_time += datetime.timedelta(seconds=self.screen.get_delta_time() / 1000)
+
+

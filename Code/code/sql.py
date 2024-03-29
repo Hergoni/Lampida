@@ -1,3 +1,4 @@
+""""
 import sqlite3
 
 
@@ -24,3 +25,4 @@ class SQL:
         print(query)
         self.cursor.execute(query)
         return self.cursor.fetchall()
+"""

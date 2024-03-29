@@ -1,3 +1,5 @@
+#Partie non terminé
+""""
 import json
 import datetime
 import pathlib
@@ -24,10 +26,7 @@ class Save:
                 "y": position[1]
             },
             "direction": self.map.player.direction,
-            "pokemon": self.map.player.pokemons,
             "inventory": self.map.player.inventory,
-            "pokedex": self.map.player.pokedex,
-            "pokedollars": self.map.player.pokedollars,
             "ingame_time": self.map.player.ingame_time.seconds
         }
         map_info = {
@@ -52,10 +51,9 @@ class Save:
                                      data["player"]["position"]["x"], data["player"]["position"]["y"],
                                      datetime.timedelta(seconds=data["player"]["ingame_time"]))
             self.map.player.direction = data["player"]["direction"]
-            self.map.player.pokemons = data["player"]["pokemon"]
             self.map.player.inventory = data["player"]["inventory"]
-            self.map.player.pokedex = data["player"]["pokedex"]
-            self.map.player.pokedollars = data["player"]["pokedollars"]
+
 
     def dump(self, element: dict):
         return json.dumps(element, indent=4)
+"""
